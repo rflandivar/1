@@ -1,0 +1,17 @@
+/* Estilos generales */
+body { margin: 0; font-family: sans-serif; }
+section { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+h1, h2 { color: white; }
+p { font-size: 1.2em; }
+
+/* Estilos parallax */
+.parallax { 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1 { background-image: url("imagen1.jpg"); }
+#section3 { background-image: url("imagen2.jpg"); }
+#section5 { background-image: url("imagen3.jpg"); }
